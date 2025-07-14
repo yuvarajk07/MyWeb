@@ -154,4 +154,10 @@ public class MyWebController {
 		return p1;
 	}
 	
+	
+	@GetMapping(value ="/yuva")
+	public String getName() {
+		return "Yuva";
+		
+	}
 }
